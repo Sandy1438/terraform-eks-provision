@@ -4,7 +4,7 @@
 # To configure or integrate Jenkins,Terraform and aws the following pre-requisite needs to be perfomred:
 
 # 1. Need to have account in AWS
-# 2. Create access and secret key of the user
+# 2. Create access and secret key of the user and S3 bucket with dyanamoDB for state file locking
 # 3. Keeping in my Jenkins is already installed we can either install terraform,docker in jenkins host or it can be configured during the build by configuring in "Global Tool Configuration" present in Jenkins.
 
 # 4. Install the required plugins like terraform,docker and aws in jenkins and configure the Global Tool Configuration and in Configure system.
